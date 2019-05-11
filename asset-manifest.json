@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.2cce8147.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.750bcd0f.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.750bcd0f.chunk.js.map",
-    "runtime~main.js": "/react-gh-pages/static/js/runtime~main.ac2d5040.js",
-    "runtime~main.js.map": "/react-gh-pages/static/js/runtime~main.ac2d5040.js.map",
-    "static/js/2.b41502e9.chunk.js": "/react-gh-pages/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/react-gh-pages/static/js/2.b41502e9.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.cae92349879c43c936844ca6b9055730.js": "/react-gh-pages/precache-manifest.cae92349879c43c936844ca6b9055730.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/react-gh-pages/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.5d5d9eef.svg"
+    "main.css": "/starwars/static/css/main.2cce8147.chunk.css",
+    "main.js": "/starwars/static/js/main.6b86c79b.chunk.js",
+    "main.js.map": "/starwars/static/js/main.6b86c79b.chunk.js.map",
+    "runtime~main.js": "/starwars/static/js/runtime~main.f4b6364c.js",
+    "runtime~main.js.map": "/starwars/static/js/runtime~main.f4b6364c.js.map",
+    "static/js/2.b41502e9.chunk.js": "/starwars/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/starwars/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/starwars/index.html",
+    "precache-manifest.bb090b28ad668dc45f25fda01605f4ea.js": "/starwars/precache-manifest.bb090b28ad668dc45f25fda01605f4ea.js",
+    "service-worker.js": "/starwars/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/starwars/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/starwars/static/media/logo.5d5d9eef.svg"
   }
 }
