@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/starwars/static/css/main.2cce8147.chunk.css",
-    "main.js": "/starwars/static/js/main.6b86c79b.chunk.js",
-    "main.js.map": "/starwars/static/js/main.6b86c79b.chunk.js.map",
+    "main.css": "/starwars/static/css/main.b1816467.chunk.css",
+    "main.js": "/starwars/static/js/main.32bdc18c.chunk.js",
+    "main.js.map": "/starwars/static/js/main.32bdc18c.chunk.js.map",
     "runtime~main.js": "/starwars/static/js/runtime~main.f4b6364c.js",
     "runtime~main.js.map": "/starwars/static/js/runtime~main.f4b6364c.js.map",
-    "static/js/2.b41502e9.chunk.js": "/starwars/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/starwars/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/starwars/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/starwars/static/js/2.65aa1cca.chunk.js.map",
     "index.html": "/starwars/index.html",
-    "precache-manifest.bb090b28ad668dc45f25fda01605f4ea.js": "/starwars/precache-manifest.bb090b28ad668dc45f25fda01605f4ea.js",
+    "precache-manifest.f9630c05a74d6fc7f19af1df7662dbfc.js": "/starwars/precache-manifest.f9630c05a74d6fc7f19af1df7662dbfc.js",
     "service-worker.js": "/starwars/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/starwars/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/starwars/static/media/logo.5d5d9eef.svg"
+    "static/css/main.b1816467.chunk.css.map": "/starwars/static/css/main.b1816467.chunk.css.map"
   }
 }
