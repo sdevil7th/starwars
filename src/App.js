@@ -21,13 +21,12 @@ import "react-perfect-scrollbar/dist/css/styles.css";
 
 class App extends React.Component {
   state = {
-    playSound: true,
+    playSound: false,
     audio: null
   };
   componentDidMount() {
     this.randomiseStars();
     let audio = new Audio(bgsound);
-    audio.play();
     this.setState({ audio: audio });
   }
   randomiseStars = () => {
