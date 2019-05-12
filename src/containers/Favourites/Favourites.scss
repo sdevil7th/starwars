@@ -1,0 +1,105 @@
+.favourite-container {
+  width: 100%;
+  height: calc(100vh - 83px);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  .details-container {
+    width: 400px;
+    height: calc(100vh - 103px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .details-header {
+      padding: 10px 30px;
+      font-size: 24px;
+      line-height: 26px;
+      color: #ffe81f;
+      background: #1c1d27;
+      border: 1px solid #ffffff;
+      border-bottom: 0;
+      border-radius: 15px 15px 0 0;
+      opacity: 0.7;
+    }
+    .favourite-items-details {
+      height: calc(100vh - 145px);
+      width: 100%;
+      background: #1c1d27;
+      border: 1px solid #ffffff;
+      border-radius: 0 15px 15px 15px;
+      opacity: 0.7;
+      padding: 20px 30px;
+      .favourite-item {
+        max-height: 60px;
+        transition: max-height 0.5s ease-out;
+        overflow: hidden;
+        .item-header {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          padding: 10px;
+          font-size: 18px;
+          line-height: 20px;
+          margin: 2px 0;
+          background: #23242d;
+          border-radius: 5px;
+          color: #ffffff;
+          svg {
+            fill: #ffffff;
+          }
+          &:hover {
+            cursor: pointer;
+            background: #000000;
+            svg {
+              fill: #ffe81f;
+            }
+          }
+          p {
+            margin: 0;
+          }
+        }
+        .item-header--selected {
+          background: #000000;
+        }
+        .item-details {
+          padding: 10px;
+          .panel-content-data {
+            font-size: 14px;
+            line-height: 20px;
+            color: #bababa;
+            margin: 10px 0;
+            span {
+              font-size: 16px;
+              line-height: 16px;
+              color: #ffe81f;
+              margin-right: 20px;
+              margin-bottom: 10px;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .favourite-item--active {
+        max-height: 1000px;
+        transition: max-height 2s ease-out;
+      }
+    }
+  }
+}
+.home-redirect {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #000000;
+  background: #ffe81f;
+  border: 1px solid #ffe81f;
+  border-radius: 30px;
+  font-weight: 600;
+  &:hover {
+    background: transparent;
+    color: #ffe81f;
+  }
+}

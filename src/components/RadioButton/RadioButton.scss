@@ -1,0 +1,123 @@
+.radioButtonContainer {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 16px;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 1;
+  background: #23242d;
+  margin-top: 10px;
+  span {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  span:hover {
+    color: #c1c3c8;
+  }
+  input {
+    display: none;
+  }
+  > svg {
+    min-height: 12px;
+    min-width: 12px;
+  }
+}
+.radioButtonContainer:last-child {
+  margin-bottom: 0;
+}
+.big {
+  span {
+    font-size: 18px !important;
+    line-height: 18px !important;
+  }
+  svg {
+    min-height: 16px !important;
+    min-width: 16px !important;
+  }
+}
+.odd {
+  background: #23242d;
+}
+/* On mouse-over, add a grey background color */
+.radioButtonContainer:hover input ~ .radioButtonCheckmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radioButtonContainer input:checked ~ .radioButtonCheckmark {
+  background-color: #2196f3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radioButtonCheckmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radioButtonContainer input:checked ~ .radioButtonCheckmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radioButtonContainer .radioButtonCheckmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.planet-search-bar {
+  width: 100%;
+  padding: 0 30px;
+  background: #23242d;
+  input {
+    width: 100%;
+    padding: 8px 15px;
+    background: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffe81f;
+    outline: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.radio-btn-container--scroll {
+  height: 180px;
+  max-height: 180px;
+}
+.radio-btn-content {
+  padding: 10px 20px;
+  background: #23242d;
+  .radio-btn-sublist {
+    line-height: 16px;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 5px;
+    &:hover {
+      cursor: pointer;
+      background: #000000;
+    }
+  }
+  .radio-btn-sublist--selected {
+    background: #000000;
+  }
+}
